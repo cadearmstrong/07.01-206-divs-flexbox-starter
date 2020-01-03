@@ -97,15 +97,16 @@ textarea {
 
 
 html {
-  background-color: gray;
+  background-color: #57A6FF;
   height: 100%;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: 100%;
+  color: #57FFA0;
 }
 
 .wrapper {
@@ -117,34 +118,61 @@ body {
   justify-content: space-between;
 }
 
-.wide-div {
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: teal;
-  border: 5px solid red;
-  height: 300px;
+.main-title {
+  color: #63FFFF;
+  height: auto;
+  border: 3px solid #4FC0E8;
+  min-height: 100px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 1em;
+  padding: 5px;
+}
+
+.wide-div {
+  height: auto;
+  border: 3px solid #4FC0E8;
+  min-height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  padding: 5px;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: teal;
-  border: 5px solid red;
-  height: 300px;
+  min-height: 300px;
+  height: auto;
   width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5px;
 }
 
+#div-2 {
+  border-left: 1px solid #4FE8BD;
+  border-right: 1px solid #4FE8BD;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0 40px;
+}
 
+footer {
+  height: auto;
+  border: 3px solid #4FC0E8;
+  min-height: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 1em;
+  padding: 5px;
+}
 
 
 /* ==========================================================================
