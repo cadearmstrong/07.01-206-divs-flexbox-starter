@@ -110,6 +110,8 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
+  flex-flow: row;
+  flex-wrap: wrap;
   font-weight: 700;
   display: flex;
   justify-content: space-between;
@@ -120,10 +122,11 @@ body {
   line-height: 1.5em;
   font-size: 1.6em;
   background-color: teal;
+  border: 5px solid red;
   height: 300px;
-  width: 30%;
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -133,6 +136,7 @@ body {
   line-height: 1.5em;
   font-size: 1.6em;
   background-color: teal;
+  border: 5px solid red;
   height: 300px;
   width: 30%;
   display: flex;
